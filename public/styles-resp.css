@@ -1,0 +1,532 @@
+/* Breakpoint: 1250px*/
+@media screen and (max-width: 1250px)
+{
+    /*Home*/
+    .home-text
+    {
+        width: 38vw;
+        padding: 3.7rem 0 3.7rem 6.4rem; 
+        margin: 0;
+    }
+
+    .home-image
+    {
+        width: 62vw;
+        padding: 0 7rem;
+        margin: 0;
+    }
+
+    /*About */
+    .about-section
+    {
+        padding: 0 3rem;
+    }
+
+    .about-text
+    {
+        width: 60vw;
+        padding: 1rem 2rem 1rem 3.3rem;
+        line-height: 1.8;
+        margin: 0;
+    }
+
+    .about-image
+    {
+        width: 40vw;
+        padding: 1rem 0 0 0;
+        margin: 0;
+        
+    }
+
+    .img-2
+    {
+        width: 340px;
+    }
+
+    .about-icons
+    {
+        padding: 0 6rem;
+    }
+
+    .about-icons object
+    {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+/* Breakpoint: 1100px */
+@media screen and (max-width: 1100px)
+{
+    /* Navbar */
+    .navbar-div
+    {
+        padding: 5px;
+    }
+
+    .nav-container
+    {
+        padding: 0 2.7rem;
+        
+    }
+
+    /*Home */
+    .home-div
+    {
+        height: 31rem;
+        margin-bottom: 2rem;
+        padding: 4rem 0 0 0;
+    }
+
+    .home-text
+    {
+        width: 43vw;
+        font-size: 29px;
+        padding: 3.7rem 0 3.7rem 3rem; 
+        margin: 0;
+
+    }
+
+    .home-image
+    {
+        width: 60vw;
+        padding: 0 5rem;
+        margin: 0;
+    }
+
+    .home-image img
+    {
+        width: 400px;
+        height: 295px; 
+    }
+
+    /* About */
+    .about-div
+    {
+        height: 41rem;
+    }
+
+    .about-section
+    {
+        padding: 0 2.2rem;
+    }
+
+    .about-image
+    {
+        width: 32vw;
+        height: 27rem;
+        padding: 2.7rem 0 0 0;
+        margin: 0;
+    }
+
+    .img-2
+    {
+        width: 300px;
+        height: 26rem;
+    }
+
+    .about-text
+    {
+        width: 60vw;
+        height: 35rem;
+        padding: 1rem 2.9rem;
+        line-height: 1.75;
+        margin: 0;
+        font-size: 0.94rem;
+
+    }
+
+    .about-icons
+    {
+        padding: 0 4rem;
+    }
+
+    .about-icons object
+    {
+        width: 38px;
+        height: 38px;
+    }
+
+    /*Skills */
+    .skills-sec
+    {
+        height: 28.5rem;
+    }
+
+    .skills-section-1 > *,
+    .skills-section-2 > *
+    {   
+        padding-left: 2rem;
+    }
+
+}
+
+/* Breakpoint: 960px */
+@media screen and (max-width: 960px)
+{
+    /*Navbar */
+    .navbar-list
+    {
+        display: flex;
+    }
+
+    .navbar-div
+    {
+        padding: 5px;
+    }
+
+    .nav-container
+    {
+        padding: 0 1.6rem;
+    }
+
+
+    /* Home */
+    .home-div
+    {
+        height: 30rem;
+        margin-bottom: 2rem;
+        padding: 4.4rem 0 0 0;
+    }
+
+    .home-text
+    {
+        width: 43vw;
+        font-size: 27px;
+        padding: 0 0 3.7rem 3rem; 
+    }
+
+    .home-text h1 span
+    {
+        font-weight: 750;
+        letter-spacing: 1.4px;
+    }
+
+    .home-text h4
+    {
+        font-size: 1rem;
+    }
+
+    .home-image
+    {
+        width: 57vw;
+        padding: 0 4.7rem;
+    }
+
+    .home-image img
+    {
+        width: 300px;
+        height: 221px; 
+    }
+
+    /*About */
+    .about-div
+    {
+        height: 35rem;
+    }
+
+    .about-div > :first-child
+    {
+        margin-bottom: 3rem;
+    }
+
+    .about-section
+    {
+        padding: 0 1.4rem;
+    }
+
+    .about-image
+    {
+        width: 33vw;
+        height: 35rem;
+        padding: 2.2rem 0 0 0;
+    }
+
+    .img-2
+    {
+        width: 250px;
+        height: 23.5rem;
+    }
+
+    .about-text
+    {
+        width: 67vw;
+        height: 35rem;
+        padding: 1rem 0 0 1rem;
+        font-size: 0.8rem;
+    }
+
+    .about-icons
+    {
+        padding: 0 5.6rem;
+    }
+
+    .about-icons object
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* Footer */
+    .footer-div
+    {
+        height: 32rem;
+        padding: 4rem 0 0 0;
+    }
+
+    .section-1
+    {
+        height: 50%;
+        padding: 0 1.5rem;
+    }
+
+
+}
+
+/* Breakpoint: 790px */
+@media screen and (max-width: 790px)
+{
+    /*Navbar */ 
+    .navbar-list
+    {
+        display: none;
+    }
+
+    .navbar-div-2
+    {
+        height: 12rem;
+    }
+    .navbar-ham
+    {
+        display: block;
+        transition: transform 0.3s;
+    }
+
+    .navbar-ham img
+    {
+        width: 45px;
+        height: 45px;
+        margin-top: 0.52rem;
+    }
+
+    .navbar-ham:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .navbar-menu-2
+    {
+        width: 100vw;
+        height: 7rem;
+        padding: 0 0 0 1rem;
+        display: flex;
+        flex-direction: column;
+        transform: translate(-100px, 60px);
+    }
+
+    .navbar-menu-2 > *
+    {
+        margin-bottom: 0.5rem;
+    }
+
+
+    /*About */
+    .about-image
+    {
+        width: 0;
+        height: 0;
+    }
+
+    .img-2
+    {
+        width:0;
+        height: 0;
+    }
+
+    .about-text
+    {
+        width: 80vw;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .about-icons
+    {
+        padding: 0 5.4rem;
+    }
+
+    /*Home */
+    .home-text
+    {
+        width: 100vw;
+        z-index: 10;
+        padding: 0;
+        transform: translateX(100px);
+        text-align: center;
+    }
+
+    .home-text h1
+    {
+        width: 20rem;
+        height: 10rem;
+        font-weight: 250;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .home-text h1 span
+    {
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+
+    .home-text h4
+    {
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .home-image
+    {
+        width: 0vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .home-image img
+    {
+        width: 0px;
+        height: 0px; 
+    }
+
+
+    /* Skills */
+    .skills-div
+    {
+        width: 100vw;
+        height: 67rem;
+        text-align: center;
+        /*background-color: #f8f9fa; */
+        padding: 4rem 0 0 0;
+    }
+
+    .skills-div >:not(:last-child)
+    {
+        margin-bottom: 4rem;
+    }
+
+    .skills-sec
+    {
+        height: 30rem;
+        padding: 0 1rem;
+    }
+
+    .skills-section-1
+    {
+        width: 50vw;
+        height: 20rem;
+    }
+
+    .skills-section-1 > *,
+    .skills-section-2 > *
+    {
+        padding-left: 1.4rem;
+    }
+
+    .skills-section-2
+    {
+        width: 50vw;
+        height: 20rem;
+    }
+
+    .skills-cv
+    {
+        height: 16rem;
+        letter-spacing: 0.04rem;
+        padding: 0 1rem;
+    }
+
+    .skills-cv h1
+    {
+        font-weight: 300;
+    }
+
+    .skills-cv h1 span
+    {
+        font-weight: 700;
+    }
+
+    #button-cv
+    {   
+        padding: 1rem 1.6rem;
+    }
+
+    /*Contact */
+    .contact-div
+    {
+        height: 70rem;
+        padding: 4rem 0 0 0;
+    }
+    .contact-sec
+    {
+        height: 50rem;
+        display: block;
+    }
+
+    .contact-section-1
+    {
+        width: 75vw;
+        height: 34rem;
+    }
+
+    .contact-section-2
+    {
+        width: 80vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /*Footer*/
+    .footer-div
+    {
+        height: 33rem;
+        padding: 4rem 0 0 0;
+    }
+
+    .footer-section
+    {
+        height: 25rem;
+        margin: 0 auto;
+        color: #fff;
+        background-color: #111111; 
+        text-align: center;
+    }
+
+    .footer-image
+    {
+        margin-bottom: 2rem;
+    }
+
+    .footer-image img
+    {
+        width: 65px;
+        height: 45px;
+    }
+
+    .section-1
+    {
+        display: block;
+        padding: 2rem 0;
+    }
+
+    .footer-menu ul li
+    {
+        font-size: 0.87rem;
+    }
+
+}
+
+
+
